@@ -7,9 +7,7 @@ linux:
     - x-scheme-handler/x-github-client
     - x-scheme-handler/x-github-desktop-auth
   target:
-    - deb
-    - rpm
-    - AppImage
+    - snap
   maintainer: 'GitHub, Inc <opensource+desktop@github.com>'
 deb:
   afterInstall: './script/linux-after-install.sh'
